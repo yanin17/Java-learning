@@ -2,13 +2,13 @@ import java.util.Scanner;
 
 public class AddTwoMatrix {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         // Input on the keyboard
         System.out.print("Enter the number of rowsof matrix : ");
-        int m = in.nextInt();
+        int m = input.nextInt();
         System.out.print("Enter the number of columns of matrix : ");
-        int n = in.nextInt();
+        int n = input.nextInt();
 
         int first[][] = new int[m][n];
         int second[][] = new int[m][n];
@@ -17,14 +17,14 @@ public class AddTwoMatrix {
         System.out.println("Enter the elements of first matrix");
         for (int c = 0; c < m; c++) {
             for (int d = 0; d < n; d++) {
-                first[c][d] = in.nextInt();
+                first[c][d] = input.nextInt();
             }
         }
 
         System.out.println("Enter the elements of second matrix");
         for (int c = 0; c < m; c++) {
             for (int d = 0; d < n; d++) {
-                second[c][d] = in.nextInt();
+                second[c][d] = input.nextInt();
             }
         }
 

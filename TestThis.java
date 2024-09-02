@@ -3,8 +3,8 @@ public class TestThis {
     private String name = "Ratchanon";
 
     public TestThis(String name) {
-        name = name;
-        // this.name = name;
+        // name = name;
+        this.name = name;
     }
 
     public void print() {

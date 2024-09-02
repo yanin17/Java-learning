@@ -24,19 +24,23 @@ public class TestPolymorphism {
         System.out.println("Department : " + dept);
     }
 
-    public static void main(String[] args) {
-        TestPolymorphism tp;
-        if (args.length < 3 || args.length > 4) {
-            System.out.println("Please input data : ");
-            System.out.println("For an employee => Employee ID and Salary");
-            System.out.println("For an maneger => Employee ID and Department");
-        } else if (args.length == 3) {
-            tp = new TestPolymorphism(args[0], Integer.parseInt(args[1]), Double.parseDouble(args[2]));
-            tp.printData();
-        } else if (args.length == 4) {
-            tp = new TestPolymorphism(args[0], Integer.parseInt(args[1]), Double.parseDouble(args[2]), args[3]);
-            tp.printData();
-        }
-    }
+    /*
+     * public static void main(String[] args) {
+     * TestPolymorphism tp;
+     * if (args.length < 3 || args.length > 4) {
+     * System.out.println("Please input data : ");
+     * System.out.println("For an employee => Employee ID and Salary");
+     * System.out.println("For an maneger => Employee ID and Department");
+     * } else if (args.length == 3) {
+     * tp = new TestPolymorphism(args[0], Integer.parseInt(args[1]),
+     * Double.parseDouble(args[2]));
+     * tp.printData();
+     * } else if (args.length == 4) {
+     * tp = new TestPolymorphism(args[0], Integer.parseInt(args[1]),
+     * Double.parseDouble(args[2]), args[3]);
+     * tp.printData();
+     * }
+     * }
+     */
 
 }

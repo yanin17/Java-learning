@@ -1,4 +1,6 @@
-package OOP.4_abstract_interface;
+1. Create Abstract Class
+=> Super Class : Shape.java
+=> Sub Class : Circle.java, Sqare.java
 
 // Creating Abstract Class
 abstract class AbstractClassName {
@@ -13,4 +15,6 @@ abstract class AbstractClassName {
         [Statement];
     }
  }
+
+ 2. Using Abstract Class
  

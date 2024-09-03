@@ -1,0 +1,16 @@
+package OOP.4_abstract_interface;
+
+// Creating Abstract Class
+abstract class AbstractClassName {
+    [Abstract MethodName]
+    [Concrete MethodName]
+}
+
+// Inheritance Abstract Class
+
+ class ClassName extends AbstractClassName{
+    abstract MethodName(){
+        [Statement];
+    }
+ }
+ 

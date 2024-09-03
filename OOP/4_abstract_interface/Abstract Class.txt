@@ -17,4 +17,28 @@ abstract class AbstractClassName {
  }
 
  2. Using Abstract Class
- 
+ => Super Class : ColorAbst.java
+ => Sub Class : color1Abst.java
+ => Using : AbstractDemo.java
+
+ 3. Interface
+ // Create Abstract Class
+ [modifier] interface interfaceName {
+    medhod();
+ }
+
+ // Using
+ => Super Class : mainInterface.java
+=> Sub Class : interfaceX.java
+=> Using : testInterface.java
+ [modifier] class ClassName implements interface interfaceName {
+    [medhod();]
+ }
+
+ //Interface Inheritance interface
+ Life1.java
+ Life2.java
+ testlife.java
+ [modifier] interface sub_interface_name extends super_interface_name {
+    ... Interface Body ...
+ }

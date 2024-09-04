@@ -1,0 +1,25 @@
+// Button
+JButton jbtOK = new JButton("OK);
+
+// Label
+JLabel jlbName = new JLabel("Enter your name :);
+
+// Text Field
+JTextField jtfName = new JTextField("Type Name Here);
+
+// Check Box
+JCheckBox jchkBold = new JCheckBox("Bold)";
+
+// Radio buttom
+JRadioButton jrbRed = new JRadioButton("Red");
+
+// Combo Box
+JComboBox jcboColor = new JComboBox(new String[]{"Red", Green", "Blue"});
+
+// Frame
+- คำสั่งให้เฟรมปรากฎบนจอ
+frame.setVisble(boolean); 
+- คำสั่งกำหนดขนาด ก x ส
+frame.setSize(400,300);
+- คำสั่งให้หยุดทำงานของ terminal เมื่อปิด Frame
+frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
